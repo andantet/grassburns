@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[35,)"
+issueTrackerURL = "https://github.com/andantedevs/grassburns/issues"
+license = "MIT; Assets licensed as All Rights Reserved"
+
+[[mods]]
+modId = "grassburns"
+version = "${version}"
+displayName = "Grass Burns"
+#updateJSONURL = ""
+displayURL = "https://github.com/andantedevs/grassburns"
+#credits = ""
+authors = "andante."
+description = '''
+Makes grass and other spreadable blocks decay when on fire.
+'''
+logoFile = "icon.png"
+
+[[dependencies.grassburns]]
+modId = "forge"
+mandatory = true
+versionRange = "[35,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.grassburns]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.2,)"
+ordering = "NONE"
+side = "BOTH"

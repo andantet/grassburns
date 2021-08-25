@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "grassburns",
+    "version": "${version}",
+    "name": "Grass Burns",
+    "description": "Makes grass and other spreadable blocks decay when on fire.",
+    "authors": [
+        "andante."
+    ],
+    "contact": {
+        "homepage": "https://dodogang.net",
+        "issues": "https://github.com/andantedevs/grassburns/issues",
+        "sources": "https://github.com/andantedevs/grassburns"
+    },
+    "license": "MIT; Assets licensed as All Rights Reserved",
+    "icon": "assets/grassburns/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+          "net.dodogang.grassburns.fabric.GrassBurnsFabric"
+        ]
+    },
+    "mixins": [
+        "grassburns.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.7.4",
+        "fabric": "*",
+        "minecraft": ">=1.16.4"
+    },
+    "custom": {
+        "modmenu": {
+            "badges": [],
+            "links": {
+                "grassburns.discord": "https://discord.dodogang.net"
+            }
+        }
+    }
+}
